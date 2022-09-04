@@ -5,10 +5,6 @@
 	/*background-color: #7bc5c1;*/
 }
 
-
-
-/*¡¡AGREGAR ANIMACIONES!!*/
-
 a{
 	list-style-type: none;
 	text-decoration: none;
@@ -66,13 +62,10 @@ h1{
 	padding: 15px;
 	background-color: #7bc5c1;
 	text-align: center;
-<<<<<<< HEAD
 	border: solid 3px #cfc5c1;
-=======
 	border-right: solid 3px #cfc5c1;
 	border-left: solid 3px #cfc5c1;
 	border-bottom: solid 3px #cfc5c1;
->>>>>>> cssEficiente
 }
 
 .p-main{
@@ -353,6 +346,10 @@ gridF{
 	.contentMain{
 		display: flex;
 		flex-direction: column;
+	}
+
+	.contentMain img{
+		min-width: 95%;
 	}
 
 	/*MAIN NOSOTROS*/
