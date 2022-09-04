@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../img/logo3.png">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>LM Indumentaria Deportiva</title>
+</head>
+<body class="gridBody">
+	
+	<header class="gridsHeader gridH">
+
+		<div class="logo gridLogo">
+			<!-- imagen de logo -->
+			<a href="../index.html"><img src="../img/logo4.png" alt="logo pagina web"></a>
+		</div>
+		<nav class="nav gridNav">
+			<ul>
+				<li><a href="../index.html">Inicio</a>
+				</li>
+				<li><a href="nosotros.html">Nosotros</a>
+				</li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="corporativo.html">Institucional</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<main class="gridM gridMCt">
+
+		<div class="divMCt">
+			<h1>CONTACTO</h1>
+			<h3 class="subtitleCt">Contactanos para saber mas sobre nuestros productos, formas de pago y envios.</h3>
+		</div>
+
+		<form action="" class="formCt">
+			<label for="nombreCompleto">Nombre completo:</label>
+			<input type="text" name="nombreCompleto"><br>
+
+			<label for="apellidoCompleto">Apellido completo:</label>
+			<input type="text" name="apellidoCompleto"><br>
+
+			<label for="edad">Edad:</label>
+			<input type="number" name="edad"><br>
+
+			<label for="email">Inserte su Email:</label>
+			<input type="email" name="email"><br>
+
+			<textarea placeholder="Escriba dudas o inquietudes"></textarea>
+
+			<div>Hombre</div>
+			<input type= "radio" name="sexo" value="hombre">
+
+			<div>Mujer</div>
+			<input type= "radio" name="sexo" value="mujer"><br>
+
+			<div>
+				Deseo recibir emails sobre ofertas y promociones
+				<input type="checkbox" name="si">
+			</div>
+			<button type="submit" name="buton" class="buttonForm">Enviar</button>
+			<button type="reset" name="buton" class="buttonForm">Reestablecer</button>
+
+		</form>
+
+	</main>
+
+	<footer class="gridsFoot gridF">
+		<div class="logoF gridLogoF">
+			<img src="../img/logo4.png" alt="logo marca">
+		</div>
+		<div class="locaF gridLocacion">
+			<p>Junin, Buenos Aires, Argentina</p>
+		</div>
+		<div class="copyF gridCopy">
+			<p>LM Indumetaria Deportiva&copy</p>
+		</div>
+	</footer>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+</html>
